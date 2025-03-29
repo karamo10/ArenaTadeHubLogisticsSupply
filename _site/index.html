@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Arena Trade Hub Logistics & Supplies - </title>
+    <!-- CSS Link -->
+    <link
+      rel="stylesheet"
+      href="/assets/css/style.css"
+    />
+  </head>
+  <!-- Icons Link -->
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <body>
+    <section class="header">
+    <div class="header__left">
+        <div class="tell-mail">
+        <i class='bx bxs-phone-call'></i>
+        <a href="tel:+2200002222">Phone: +220 000 2222</a>
+        </div>
+        <div class="tell-mail">
+        <i class='bx bx-envelope'></i>
+        <a href="https://mail.google.com/mail/?view=cm&to=example@gmail.com
+                            target=" _blank">sales@arenatradehub.gm</a>
+        </div>
+    </div>
+    <div class="header__right">
+        <i class='bx bxl-facebook-square'></i>
+        <i class='bx bxl-instagram-alt'></i>
+        <i class='bx bxl-youtube'></i>
+        <i class='bx bxl-tiktok'></i>
+    </div>
+</section>
+    <section class="nav__section container">
+    <div class="nav__logo">
+        <img src="/assets/images/logo.jpeg" alt="Logo image">
+    </div>
+    <div class="nav__links">
+        <a href="#products" class="active">products</a>
+        <a href="#">about</a>
+        <a href="#partners">partners</a>
+    </div>
+    <div class="nav__cart">
+        <i class='bx bx-menu'></i>
+        <i class='bx bxs-cart-add' id="cart-icon"></i>
+    </div>
+
+    <!-- Cart -->
+    <div class="cart">
+        <div class="cart-title">Your Cart</div>
+        <!-- Content -->
+        <div class="cart-content">
+            <div class="cart-box">
+                <img src="/assets/images/egg.jpg" alt="" class="cart-img">
+                <div class="detail-box">
+                    <div class="cart-product-title">Bag of Rice</div>
+                    <div class="cart-price">GMD2500.00</div>
+                    <input type="number" value="1" class="cart-quantity">
+                </div>
+                <!-- Remove -->
+                <i class='bx bxs-trash-alt cart-remove'></i>
+            </div>
+        </div>
+        <!-- Total -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">GMD0</div>
+        </div>
+        <!-- Buy Button -->
+        <button type="button" class="whatsapp-btn">Buy Now</button>
+        <div class="locaton">
+            <label for="location" class="location__text"> For Delivery <br>
+                Enter Your Compound  <br> Google Location Code</label>
+            <input type="text" id="location-input" name="location" placeholder="eg Qyr435W" maxlength="10">
+        </div>
+        <!-- Cart Close -->
+        <i class='bx bx-x' id="close-cart"></i>
+    </div>
+</section>
+
+    <section class="contact">
+    <!-- <button class="whatsapp-btn"> -->
+        <img class="whatsapp-btns" src="/assets/images/whatsapp (1).png" alt="">
+    <!-- </button> -->
+    <i class='bx bx-up-arrow-circle btn-top' onclick="Top()"></i>
+</section>
+
+    <section class="hero__section">
+    <div class="hero__section-inner">
+        <div class="hero__section-inner-content">
+        <h6 class="hero__section-title">
+            Welcome to arena trade hub logistics & supply
+        </h6>
+        </div>
+        <div class="hero__section-inner-content">
+            <a href="#products">
+                View Products
+                <i class='bx bxs-cart-alt'></i>
+            </a>
+            
+        </div>
+    </div>
+</section>
+<section class="details container">
+  <div class="details__grid">
+    <div class="details__grid-item">
+      <img src="/assets/images/guarantee.png" alt="" />
+      <h6 class="title">Quaranteed Quality</h6>
+      <hr />
+      <p class="paragraph">
+        We ensure that every product meet high-quality standards, giving you
+        fresh and safe food every time
+      </p>
+    </div>
+    <div class="details__grid-item">
+      <img src="/assets/images/delivery-man (1).png" alt="" />
+      <h6 class="title">Fast & Afordable Delivery</h6>
+      <hr />
+      <p class="paragraph">
+        Get your order delivered quickly to your doorstep. free delivery for
+        orders above D10,000
+      </p>
+    </div>
+    <div class="details__grid-item">
+      <img src="/assets/images/phone-call.png" alt="" />
+      <h6 class="title">24/7 Customer Support</h6>
+      <hr />
+      <p class="paragraph">
+        Have a questions or need assistance? call or whatsApp us at +220 000
+        0000 for instant support
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery__section container">
+    <div class="gallery__section__item">
+        <img src="/assets/images/onions.jpg" alt="">
+    </div>
+    <div class="gallery__section__item">
+        <img src="/assets/images/potatoes-min.webp" alt="">
+    </div>
+    <div class="gallery__section__item">
+        <img src="/assets/images/rice.jpeg" alt="">
+    </div>
+</section>
+<section class="items__section" id="products">
+  <div class="items__section-inner container">
+    <span class="items__section-title"> 
+        Shop our top products
+     </span>
+     <div class="items__section-grid">
+        <!-- Box 1 -->
+        <div class="product-box">
+            <img src="/assets/images/rice.jpeg" alt="" class="product-img">
+            <div>        
+            <h6 class="product-title">
+                50kg
+                <br>
+                Rice
+            </h6>
+            <span class="price">GMD2500</span>
+            <i class="bx bx-shopping-bag add-cart" data-id="item-1"></i>
+            </div>
+        </div>
+        
+        <!-- Box 1 -->
+        <div class="product-box">
+            <img src="/assets/images/oil2.jpeg" alt="" class="product-img">
+            <div>
+            <h6 class="product-title">
+                5litr
+                <br>
+                Cooking Oil
+            </h6>
+            <span class="price">GMD2500</span>
+            <i class="bx bx-shopping-bag add-cart" data-id="item-2"></i>
+            </div>
+        </div>
+        <!-- Box 1 -->
+        <div class="product-box">
+            <img src="/assets/images/palm-oil.jpeg" alt="" class="product-img">
+            <div>
+            <h6 class="product-title">
+                1litr
+                <br>
+                Palm Oil
+            </h6>
+            <span class="price">GMD2500</span>
+            <i class="bx bx-shopping-bag add-cart" data-id="item-3"></i>
+            </div>
+        </div>
+        <!-- Box 1 -->
+        <div class="product-box">
+            <img src="/assets/images/onion-bag.jpeg" alt="" class="product-img">
+            <div>            
+            <h6 class="product-title">
+                50kg
+                <br>
+                Onion
+            </h6>
+            <span class="price">GMD2500</span>
+            <i class="bx bx-shopping-bag add-cart" data-id="item-4"></i>
+            </div>
+
+        </div>
+        <!-- Box 1 -->
+        <div class="product-box">
+            <img src="/assets/images/potatoes-min.webp" alt="" class="product-img">
+            <div>
+            <h6 class="product-title">
+                25kg
+                <br>
+                Potatoes
+            </h6>
+            <span class="price">GMD2500</span>
+            <i class="bx bx-shopping-bag add-cart" data-id="item-5"></i>
+            </div>
+        </div>
+        <!-- Box 1 -->
+        <div class="product-box">
+            <img src="/assets/images/vinaigre.jpeg" alt="" class="product-img">
+            <div>            
+            <h6 class="product-title">
+                1litr
+                <br>
+                Vinaigre
+            </h6>
+            <span class="price">GMD2500</span>
+            <i class="bx bx-shopping-bag add-cart" data-id="item-6"></i>
+            </div>
+        </div>
+     </div>
+  </div>
+</section>
+
+<section class="partners" id="partners">
+  <div class="partners__details container">
+    <span class="partners__section-title"> Our partners </span>
+    <div class="partners__details-grid">
+      <div class="partners__details-item">
+        <div>
+        <h5 class="partners__details-item-title">Afro flavor</h5>
+        <h6 class="partners__details-item-service">Catering service</h6>
+        </div>
+        <div>
+            <img src="/assets/images/catering.jpeg" alt="">
+            <p class="partners__details-item-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam asperiores dolorum optio officia maxime doloribus illo quidem reprehenderit labore, id quo dolores ea voluptas.</p>
+        </div>
+        <div>
+            <h6 class="partners__details-item-cont">contact us</h6>
+            <a href="tel:+2200007777">Phone: +220 000 7777</a>
+            <br>
+            <a href="https://mail.google.com/mail/?view=cm&to=sample@gmail.com" target="_blank">sample@gmail.com</a>
+        </div>
+      </div>
+     <!--  -->
+    <div class="partners__details-item">
+        <div>
+            <h5 class="partners__details-item-title">Afro flavor</h5>
+            <h6 class="partners__details-item-service">General Good</h6>
+        </div>
+        <div>
+            <img src="/assets/images/general-goods.jpeg" alt="">
+            <p class="partners__details-item-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam
+                asperiores dolorum optio officia maxime doloribus illo quidem reprehenderit labore, id quo dolores ea
+                voluptas.</p>
+        </div>
+        <div>
+            <h6 class="partners__details-item-cont">contact us</h6>
+            <a href="tel:+2200007777">Phone: +220 000 7777</a>
+            <br>
+            <a href="https://mail.google.com/mail/?view=cm&to=sample@gmail.com" target="_blank">sample@gmail.com</a>
+        </div>
+    </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="footer__section">
+    <div class="footer__infos">
+    <div class="footer__details">
+    <h4 class="footer__section__title">Call Us on</h4>
+    <div class="details">
+        <div class="details__item">
+            <a href="tel:+2200002222">Phone: +220 000 2222</a>
+        </div>
+       
+    </div>
+    </div>
+    <div class="footer__details">
+        <h4 class="footer__section__title">Follow Us</h4>
+        <ul>
+            <li><a href="https://www.instagram.com/hustlestar_clothing?igsh=bXduNDlhOHczb3Ry&utm_source=qr" target="_blank"><i
+                        class='bx bxl-instagram'></i></a></li>
+            <li><a href="https://www.tiktok.com/@hustlestarclothing?_t=ZM-8tRV5OJgvQr&_r=1" target="_blank"><i
+                        class='bx bxl-tiktok'></i></a></li>
+        </ul>
+    </div>
+    <div class="footer__details">
+        <h4 class="footer__section__title">Email Us On</h4>
+        <a href="https://mail.google.com/mail/?view=cm&to=example@gmail.com
+                                    target=" _blank">example@gmail.con.com</a>
+    </div>
+    
+    <!-- <div class="footer__details">
+        <p>&copy; 2025 Huslestar Clothing. All rights reserved.</p>
+    </div> -->
+    </div>
+    <p class="copyright">&copy; 2025 arena trade hub logistics & supply All rights reserved.</p>
+
+</section>
+
+    <script src="assets/script/script.js"></script>
+  </body>
+</html>

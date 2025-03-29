@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- CSS Link -->
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+  </head>
+  <!-- Icons Link -->
+  <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <body>
+    {%include ui/header/header.html%}
+    {%include ui/nav/nav.html%}
+
+    {%include ui/contact/contact.html%}
+
+    {{ content }}
+
+    {%include ui/footer/footer.html%}
+
+    <script src="{{ 'assets/script/script.js' }}"></script>
+  </body>
+</html>
