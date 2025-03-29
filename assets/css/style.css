@@ -137,7 +137,7 @@ a {
 /* Hero Styling */
 .hero__section {
   background: linear-gradient(to bottom, #eeeeee, #dadada);
-  background-image: url(/assets/images/rice.jpg);
+  background-image: url(/ArenaTadeHubLogisticsSupply/assets/images/rice.jpg);
   background-position: center right;
   background-size: cover;
   height: 500px;
@@ -914,6 +914,24 @@ a {
     gap: 1rem;
     width: 100%;
   }
+
+  .header__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: tan; */
+  }
+
+    .header__left i,
+    a {
+      color: var(--primary-text);
+      font-size: 1rem;
+    }
+
+        .header__right {
+          display: none;
+        }
+
   /* Nav links */
   .nav__links {
     display: block;
@@ -933,6 +951,11 @@ a {
 
   .nav__logo {
     width: 70px;
+    border-radius: 50%;
+  }
+
+  .nav__logo img {
+    border-radius: 50%;
   }
 
   .bx-menu {

@@ -186,7 +186,7 @@ function sendToWhatsApp() {
   }
 
   // WhatsApp message link with your phone number
-  const whatsappNumber = '2203696147';
+  const whatsappNumber = '2207194940';
 
   // Detect if the user is on a mobile device
   const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
