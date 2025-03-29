@@ -205,7 +205,6 @@ function sendToWhatsApp() {
 
 // WhatsApp Chat
 const whatsappChatt = document.querySelector(".whatsapp-btns");
-console.log(whatsappChatt);
 
 if (whatsappChatt) {
   whatsappChatt.addEventListener("click", function () {

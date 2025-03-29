@@ -484,7 +484,8 @@ a {
 
 /* Partners Styling */
 .partners {
-  padding-bottom: 1.5rem;
+  padding-bottom: 4rem;
+  /* background-color: tan; */
 }
 
 .partners__details {
@@ -949,8 +950,13 @@ a {
     color: var(--link-hover);
   }
 
+  .nav__links a{
+    text-transform: uppercase;
+    color: var(--header-color);
+  }
+
   .nav__logo {
-    width: 70px;
+    width: 60px;
     border-radius: 50%;
   }
 
@@ -985,6 +991,11 @@ a {
   .add-cart {
     font-size: 0.9rem;
   }
+
+    .copyright {
+      /* font-size: 0.7rem; */
+        margin-top: 1.1rem;
+    }
 }
 
 @media (max-width: 320px) {
