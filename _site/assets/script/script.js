@@ -186,7 +186,7 @@ function sendToWhatsApp() {
   }
 
   // WhatsApp message link with your phone number
-  const whatsappNumber = '2207194940';
+  const whatsappNumber = '2203696147';
 
   // Detect if the user is on a mobile device
   const isMobile = /iPhone|Android|iPad/i.test(navigator.userAgent);
@@ -208,7 +208,7 @@ const whatsappChatt = document.querySelector(".whatsapp-btns");
 
 if (whatsappChatt) {
   whatsappChatt.addEventListener("click", function () {
-    const whatsappNumber = '2207194940'; // Your WhatsApp number
+    const whatsappNumber = '2203696147'; // Your WhatsApp number
     const defaultMessage = "Hello, I’m interested in your products!"; // Default message
 
     // Detect if the user is on a mobile device

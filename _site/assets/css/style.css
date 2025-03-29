@@ -138,6 +138,7 @@ a {
 .hero__section {
   background: linear-gradient(to bottom, #eeeeee, #dadada);
   background-image: url(/ArenaTadeHubLogisticsSupply/assets/images/rice.jpg);
+  /* background-image: url(/ArenaTadeHubLogisticsSupply/assets/images/rice1.jpg); */
   background-position: center right;
   background-size: cover;
   height: 500px;
@@ -787,7 +788,21 @@ a {
     flex-direction: column;
   }
 
-  /* gggdggdd */
+  /* Hero Stylings
+    .hero__section {
+      background: linear-gradient(to bottom, #eeeeee, #dadada);
+      background-image: url(/ArenaTadeHubLogisticsSupply/assets/images/rice.jpg);
+      background-image: url(/ArenaTadeHubLogisticsSupply/assets/images/rice1.jpg);
+      background-position: center right;
+      background-size: cover;
+      height: 500px;
+      position: relative;
+    }
+    
+    .hero__section img {
+      padding-left: 1rem;
+    } */
+
   .hero__section-inner {
     width: 70%;
     top: 50%;
@@ -804,6 +819,8 @@ a {
     font-size: 1.1rem;
     padding: 0.5rem 1.5rem;
   }
+
+  
 
   /* Details */
   .details__grid {
