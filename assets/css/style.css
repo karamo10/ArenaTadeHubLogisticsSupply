@@ -594,14 +594,12 @@ a {
   visibility: hidden;
   /* background-color: tan; */
   text-align: center;
-  transform: translateY(20px);
 }
 
 .btn-top.btn-active {
   opacity: 1;
   pointer-events: auto;
   visibility: visible;
-  transform: translateY(0);
 }
 
 .contact .whatsapp-btns:hover{
